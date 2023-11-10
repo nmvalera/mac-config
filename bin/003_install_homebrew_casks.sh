@@ -12,21 +12,22 @@ install_cask() {
   fi
 }
 
-install_cask "1password"
-install_cask "adobe-acrobat-reader"
-install_cask "appcleaner"
-install_cask "discord"
-install_cask "expressvpn"
-install_cask "gpg-suite"
-install_cask "google-chrome"
-install_cask "iterm2"
-install_cask "ledger-live"
-install_cask "postman"
-install_cask "raycast"
-install_cask "setapp"
-install_cask "signal"
-install_cask "slack"
-install_cask "telegram"
-install_cask "visual-studio-code"
-install_cask "yubico-yubikey-manager"
-install_cask "zoom"
+install_cask "1password" # password manager
+install_cask "adobe-acrobat-reader" # pdf reader
+install_cask "appcleaner" # app uninstaller
+install_cask "discord" # chat app
+install_cask "expressvpn" # vpn
+install_cask "gpg-suite" # gpg keychain
+install_cask "google-chrome" # web browser
+install_cask "iterm2" # terminal
+install_cask "ledger-live" # crypto wallet
+install_cask "obsidian" # note taking app
+install_cask "postman" # api testing
+install_cask "raycast" # productivity app
+install_cask "setapp"  # app marketplace and manager
+install_cask "signal" # chat app
+install_cask "slack" # chat app
+install_cask "telegram" # chat app
+install_cask "visual-studio-code" # code editor
+install_cask "yubico-yubikey-manager" # yubikey manager
+install_cask "zoom" # video conferencing
