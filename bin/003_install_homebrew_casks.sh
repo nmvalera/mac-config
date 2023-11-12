@@ -19,6 +19,7 @@ install_cask "discord" # chat app
 install_cask "expressvpn" # vpn
 install_cask "gpg-suite" # gpg keychain
 install_cask "google-chrome" # web browser
+install_cask "google-drive" # cloud storage
 install_cask "iterm2" # terminal
 install_cask "ledger-live" # crypto wallet
 install_cask "obsidian" # note taking app
