@@ -89,8 +89,26 @@ defaults write com.apple.finder "QuitMenuItem" -bool "true"
 
 printf "%s\n" "Mouse - Enable secondary click"
 defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode -string "TwoButton"
+defaults write com.apple.AppleMultitouchMouse MouseButtonMode -string "TwoButton"
 
 # Browser settings
 
 printf "%s\n" "Browser - Make Google Chrome the default browser"
 open -a "Google Chrome" --args --make-default-browser
+
+# Hotkey settings
+
+printf "%s\n" "Keyboard Shortcult - Disable Spotlight shortcut" # So no conflict with Raycast
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "<dict><key>enabled</key><false/></dict>"
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 65 "<dict><key>enabled</key><false/></dict>"
+
+printf("%s\n" "Keyboard Shortcult - Disable Screenshots shortcuts") # So no conflict with CleanShotX
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 184 "<dict><key>enabled</key><false/></dict>"
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 28 "<dict><key>enabled</key><false/></dict>"
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 29 "<dict><key>enabled</key><false/></dict>"
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 30 "<dict><key>enabled</key><false/></dict>"
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 31 "<dict><key>enabled</key><false/></dict>"
+
+printf "%s\n" "Keyboard Shortcult - Disable Input Source shortcuts" # So no conflict with Raycast
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 60 "<dict><key>enabled</key><false/></dict>"
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 61 "<dict><key>enabled</key><false/></dict>"
