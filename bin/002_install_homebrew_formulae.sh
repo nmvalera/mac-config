@@ -11,6 +11,13 @@ install_formula() {
   fi
 }
 
+install_go() {
+  install_formula "go"
+
+  # Add Go to PATH
+  echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.zshenv
+}
+
 install_formula "1password-cli"
 install_formula "android-platform-tools"
 install_formula "asciinema"
@@ -47,3 +54,5 @@ install_formula "zsh-lovers"
 install_formula "zsh-navigation-tools"
 install_formula "zsh-syntax-highlighting"
 install_formula "zshdb"
+
+
