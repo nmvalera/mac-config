@@ -18,9 +18,16 @@ install_go() {
   echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.zshenv
 }
 
+
+install_terrafom() {
+  brew tap hashicorp/tap
+  install_formula "hashicorp/tap/terraform"
+}
+
 install_formula "1password-cli"
 install_formula "android-platform-tools"
 install_formula "asciinema"
+install_formula "awscli"
 install_formula "bash"
 install_formula "bash-completion"
 install_formula "coreutils"
@@ -38,15 +45,21 @@ install_formula "ipcalc"
 install_formula "jq"
 install_formula "just"
 install_formula "mitmproxy"
+install_formula "moreutils"
 install_formula "ollama"
 install_formula "openssh"
 install_formula "openssl"
 install_formula "postgresql"
+install_formula "protobuf"
 install_formula "pyenv"
 install_formula "python"
-install_formula "terraform"
+install_terrafom
+install_formula "terraform-docs"
+install_formula "terragrunt"
+install_formula "tflint"
 install_formula "thunderbird"
 install_formula "tree"
+install_formula "trivy"
 install_formula "vim"
 install_formula "weasyprint"
 install_formula "wget"
