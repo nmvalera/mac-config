@@ -31,5 +31,6 @@ install_cask "signal" # chat app
 install_cask "slack" # chat app
 install_cask "telegram" # chat app
 install_cask "visual-studio-code" # code editor
+install_cask "vuze" # vuze
 install_cask "yubico-yubikey-manager" # yubikey manager
 install_cask "zoom" # video conferencing
