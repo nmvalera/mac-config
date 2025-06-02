@@ -54,6 +54,7 @@ install_formula "postgresql"
 install_formula "protobuf"
 install_formula "pyenv"
 install_formula "python"
+install_formula "repo-prompt"
 install_terrafom
 install_formula "terraform-docs"
 install_formula "terragrunt"
