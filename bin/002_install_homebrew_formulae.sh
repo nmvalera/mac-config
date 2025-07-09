@@ -24,6 +24,11 @@ install_terrafom() {
   install_formula "hashicorp/tap/terraform"
 }
 
+install_smithy() {
+    brew tap smithy-lang/tap
+    install_formula "smithy-cli"
+}
+
 install_formula "1password-cli"
 install_formula "android-platform-tools"
 install_formula "asciinema"
@@ -37,9 +42,12 @@ install_formula "git"
 install_formula "gitmoji"
 install_formula "gh"
 install_formula "go"
+install_formula "golangci-lint"
 install_formula "gomplate"
+install_formula "google-cloud-sdk"
 install_formula "goreleaser"
 install_formula "gpg"
+install_formula "graphviz"
 install_formula "htop"
 install_formula "ipcalc"
 install_formula "jq"
@@ -56,6 +64,7 @@ install_formula "protobuf"
 install_formula "pyenv"
 install_formula "python"
 install_formula "repo-prompt"
+install_smithy
 install_terrafom
 install_formula "terraform-docs"
 install_formula "terragrunt"
@@ -63,6 +72,7 @@ install_formula "tflint"
 install_formula "thunderbird"
 install_formula "tree"
 install_formula "trivy"
+install_formula "tunnelblick"
 install_formula "uv"
 install_formula "vim"
 install_formula "weasyprint"

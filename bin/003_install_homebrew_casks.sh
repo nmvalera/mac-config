@@ -30,6 +30,7 @@ install_cask "setapp"  # app marketplace and manager
 install_cask "signal" # chat app
 install_cask "slack" # chat app
 install_cask "telegram" # chat app
+install_cask "temurin" # java
 install_cask "visual-studio-code" # code editor
 install_cask "vuze" # vuze
 install_cask "yubico-yubikey-manager" # yubikey manager
