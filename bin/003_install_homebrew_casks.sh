@@ -16,6 +16,7 @@ install_cask "1password" # password manager
 install_cask "adobe-acrobat-reader" # pdf reader
 install_cask "android-studio" # android development
 install_cask "appcleaner" # app uninstaller
+install_cask "codex" # backup app
 install_cask "discord" # chat app
 install_cask "expressvpn" # vpn
 install_cask "gpg-suite" # gpg keychain
