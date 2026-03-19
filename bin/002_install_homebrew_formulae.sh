@@ -29,6 +29,11 @@ install_smithy() {
     install_formula "smithy-cli"
 }
 
+install_ctlptl() {
+  brew tap tilt-dev/tap
+  install_formula "tilt-dev/tap/ctlptl"
+}
+
 install_formula "1password-cli"
 install_formula "android-platform-tools"
 install_formula "asciinema"
@@ -55,6 +60,8 @@ install_formula "htop"
 install_formula "ipcalc"
 install_formula "jq"
 install_formula "just"
+install_formula "k3d"
+install_formula "k9s"
 install_formula "kubebuilder"
 install_formula "kubectx"
 install_formula "kubectl"
@@ -71,6 +78,7 @@ install_formula "pyenv"
 install_formula "python"
 install_formula "repo-prompt"
 install_smithy
+install_ctlptl
 install_terrafom
 install_formula "terraform-docs"
 install_formula "terragrunt"
