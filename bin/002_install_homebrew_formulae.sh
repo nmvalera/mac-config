@@ -80,6 +80,7 @@ install_formula "python"
 install_formula "repo-prompt"
 install_smithy
 install_ctlptl
+install_formula "temporal"
 install_terrafom
 install_formula "terraform-docs"
 install_formula "terragrunt"
